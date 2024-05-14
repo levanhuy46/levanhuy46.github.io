@@ -1,0 +1,30 @@
+.highlight{
+    color: rgb(2, 3, 0);
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #b1ef35;
+            color: #fff;
+            padding: 10px 20px;
+        }
+        nav {
+            background-color: #070707;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        article {
+            margin-bottom: 20px;
+        }
+    
