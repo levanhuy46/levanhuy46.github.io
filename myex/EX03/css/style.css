@@ -1,34 +1,112 @@
-header{
-    background-color:rgb(80, 77, 77);
-    border-style:solid;
-    border-bottom-width: 3px;
-    border-bottom-color: orangered;
-    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
-header h1{
-    color:white;
-    padding-top:40px;
+body {
+    max-width: 1256px;
+    margin: 0 auto;
 }
-header a{
-    color:rgb(91, 21, 131);
+.menu {
+    height: 64px;
+    background-color: blue;
+
+    display: flex  ;
+    align-items: center;
+    justify-content: center;
 }
-header ul{
-    padding-bottom:20px;
-    list-style:none;
+
+.logo-img {
+    height: 46px;
+
 }
-header li::before {
-    content: "•"; color: rgb(255, 255, 255);
-    display: inline-block; width: 1em;
-    margin-left: -1em
+.menu-search {
+    width: 550px;
+    margin-left: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    height: 36px;
 }
-footer{
-    background-color: orangered;
-    color:white;
-    text-align: center;
+
+
+.menu-search-input {
+    height: 100%;
+    width: 100%;
+    border: none;
+    padding-left: 20px;
+
 }
-footer p{
-    padding-top:30px;
-    padding-bottom:30px;
-    
+.banner img {
+    padding: 20px;
+}
+
+.list-product {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 22px;
+}
+
+.item-image {
+    display: block;
+    overflow: hidden;
+}
+
+.item-image image:hover{
+    transform: scale(1.09);
+    transition: transfrom 0.3s linear;
+}
+
+
+
+
+.item-title{
+    font-size: 16px;
+    color: #333;
+    text-decoration:none ;
+}
+
+.item-title:hover{
+    color: red;
+}
+
+.item-price{
+    margin: 6px 0;
+    display: flex;
+    justify-content: space-between;
+    color: #707070;
+}
+
+.item-price span:first-child{
+    color: red;
+}
+ 
+/* footer */
+
+footer {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 30px;
+}
+
+ul.footer_top-list{
+    list-stylee: none;
+}
+
+ul.footer_top-list li {
+    color: #040404;
+    font-size: 18px;
+    font-weight: 500;
 }
 
